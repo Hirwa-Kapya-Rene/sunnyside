@@ -10,5 +10,14 @@ const btn = document.querySelector('#btn1');
 console.log(btn)*/
 
 const questContainer = document.querySelector('.click-event');
+questContainer.addEventListener("click", ()=> {
+  //alert("Done");
+  questContainer.classList.add("container-clicked")
+})
 
 questContainer.style.borderRadius = "100px";
+
+const btn = document.querySelector('#btn1');
+btn.addEventListener("click", ()=> {
+  console.log("BTC");
+})

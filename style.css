@@ -24,3 +24,9 @@ p{
   padding: 10px;
 }
 
+.container-clicked{
+  background: white;
+  color: black;
+  border: 5px dashed pink;
+}
+
